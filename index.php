@@ -49,14 +49,16 @@
     </div>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper('.swiper-container', {
-            loop: true,
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-        });
+    <script src="js/script.js">
+
+    
+        //const swiper = new Swiper('.swiper-container', {
+            //loop: true,
+            //navigation: {
+                //nextEl: '.swiper-button-next',
+               // prevEl: '.swiper-button-prev',
+           // },
+        //});
     </script>
 </body>
 </html>

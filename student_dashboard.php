@@ -80,11 +80,11 @@ $student_id = $_SESSION['student_id'];
 
 <!-- Bootstrap JS Bundle -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-document.getElementById('editWishlistBtn').addEventListener('click', function () {
+<script src="js/script.js">
+//document.getElementById('editWishlistBtn').addEventListener('click', function () {
     // Redirige vers la page de modification de la liste de souhaits
-    window.location.href = 'edit_wishlist.php';
-});
+   // window.location.href = 'edit_wishlist.php';
+//});
 </script>
 </body>
 </html>
